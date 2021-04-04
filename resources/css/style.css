@@ -2,23 +2,39 @@ html {
     font-size: 16px;
     font-family: "Kiwi Maru", serif;
     text-align: center;
-    color: antiquewhite;
-    background-color: black;
+    color: black;
+    background-color: antiquewhite;
+    text-decoration: none;
 }
 
 h1 {
     font-size: 3rem;
+    margin-top: 5px;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
 }
 
 p {
     font-size: 1.25rem;
     padding-left: 25%;
     padding-right: 25%;
+    text-align: justify;
     
 }
 
 .footer {
     font-size: 1rem;
     color: gray;
+}
+
+nav {
+    background-color: black;
+    padding: 25px;
+    width: 100%;
+    display: inline-block;
 }
 
