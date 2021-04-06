@@ -65,3 +65,14 @@ button {
     border: 2px solid white;
   }
 
+  ul {
+    display: inline-block;
+  }
+
+  ul li {
+    text-align: justify;
+  }
+
+  .italic {
+      text-decoration: underline;
+  }
