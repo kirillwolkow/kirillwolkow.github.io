@@ -26,6 +26,23 @@
         <h4>Email: kirillwolkow.dev@gmail.com</h4>
         <p>In the next few weeks there will be a contact formular section below. In the while, please send an email to the given adress above.</p>
     </div>
+
+    <form id="kontaktformular" name="kontaktformular" action="http://www.formular-chef.de/fc.cgi"
+    method="post">
+        <div>
+          <label for="absender">Ihre E-Mail-Adresse:</label>
+          <input type="text" id="absender" name="absender" />
+          <input type="hidden" name="empfaenger" value="kirillwolkow.devX§Xgmail.com" />
+        </div>
+        <div>
+          <label for="nachricht">Ihre Nachricht:</label>
+          <textarea id="nachricht" name="nachricht" cols="20" rows="5"></textarea>
+        </div>
+        <div>
+          <input type="submit" value="Abschicken" />
+        </div>
+        </form>
+
     
 </body>
 
