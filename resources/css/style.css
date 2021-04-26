@@ -137,6 +137,11 @@ textarea:focus {
   color: #333;
 }
 
+.share-btn-container .fa-reddit {
+  color: #ff4500;
+}
+
+
 @media (max-width: 550px) {
   .content {
     padding: 8px 32px;
