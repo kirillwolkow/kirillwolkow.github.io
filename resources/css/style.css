@@ -3,7 +3,7 @@ html {
     font-family: "Kiwi Maru", serif;
     text-align: center;
     color: black;
-    background-color: antiquewhite;
+    background-color: silver;
     text-decoration: none;
 }
 
@@ -29,6 +29,8 @@ p {
 .footer {
     font-size: 1rem;
     color: gray;
+    background-color: black;
+    padding: 20px 20px;
 }
 
 nav {
@@ -37,6 +39,9 @@ nav {
     display: inline-block;
     width: 100%;
     height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
 }
 
 button {
@@ -81,7 +86,7 @@ button {
   /* Das Kontaktformular */
 form {
   background-color: #eee;
-  width: 370px; /* Breite des Formulars */
+  width: 500px; /* Breite des Formulars */
   padding: 20px;
   border: 1px solid #8c8c8c;
   margin-left: auto;
@@ -160,6 +165,47 @@ textarea:focus {
   }
 
   .share-btn-container a {
-    maring: 0 32px;
+    margin: 0 32px;
   }
+}
+
+.banner {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner-contact {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: 0 44%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.index-img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sand-clock {
+  height: 250px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  padding: 20px 0;
+  margin-left: auto;
+  margin-right: auto;
 }
