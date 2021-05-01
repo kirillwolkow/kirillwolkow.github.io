@@ -209,3 +209,19 @@ textarea:focus {
   margin-left: auto;
   margin-right: auto;
 }
+
+@media only screen and (max-width: 480px) {
+  p {
+    width: 100%;
+  }
+
+  button {
+    max-height: 12px;
+    max-width: auto;
+  }
+
+  .index-img {
+    height: 150px;
+    width: 100%;
+  }
+}
