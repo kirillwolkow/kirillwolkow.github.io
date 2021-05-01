@@ -239,7 +239,7 @@ textarea:focus {
   }
 
   form {
-    width: 450px;
+    width: 100%;
     padding: 2px;
     border: 1px solid #8c8c8c;
   }
@@ -264,7 +264,7 @@ textarea:focus {
   top: unset;
   left: 0;
   bottom: 0;
-  width: 450px;
+  width: 100%;
   flex-direction: row;
   box-shadow: 4px 0 8px rgba(0, 0, 0, 0.3);
   padding: 16px 0;
