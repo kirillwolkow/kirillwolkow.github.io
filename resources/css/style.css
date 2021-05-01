@@ -7,6 +7,10 @@ html {
     text-decoration: none;
 }
 
+body {
+  box-sizing: border-box;
+}
+
 h1 {
     font-size: 3rem;
     margin-top: 5px;
@@ -41,7 +45,6 @@ nav {
     height: 75px;
     margin-left: auto;
     margin-right: auto;
-    align-items: center;
 }
 
 button {
@@ -61,7 +64,6 @@ button {
     background-color: white;
     color: black;
     border: 2px solid black;
-    padding: 
   }
   
   .button:hover {
