@@ -261,6 +261,10 @@ textarea:focus {
     height: 150px;
   }
 
+  .portfolio_img {
+    width: 100%;
+  }
+
   .banner-contact {
     height: 150px;
   }
