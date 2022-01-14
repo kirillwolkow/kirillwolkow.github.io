@@ -1,4 +1,4 @@
-# First Website made with HTML, CSSm JavaScript
+# First Website made with HTML, CSS and JavaScript
 
 Hello!
 
